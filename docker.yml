@@ -1,0 +1,5 @@
+name: First github actions
+  on: push 
+  jobs: 
+    uses: actions/checkout@v4
+    runner : ubuntu:latest
